@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialogflow Chatbot Integration</title>
+    
+    <!-- Include Dialogflow Messenger integration script -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <script>
+        window.addEventListener('dfMessengerLoaded', function (event) {
+            const dfMessenger = document.querySelector('df-messenger'); 
+            const style = document.createElement('style');
+
+            const nonMobileMinWidth = 501; // Breakpoint where DF Messenger switches between mobile/non-mobile styles
+            style.textContent = '@media screen and (min-width: ' + nonMobileMinWidth + 'px) { .chat-wrapper { max-height: 75% } }';
+            
+            dfMessenger.shadowRoot.querySelector('df-messenger-chat').shadowRoot.appendChild(style);
+        });
+
+        // Uncomment to modify the request body for adding user_id
+        // window.addEventListener('df-messenger-loaded', function (event) {
+        //     const dfMessenger = document.querySelector('df-messenger');
+        //     dfMessenger.addEventListener('df-request-sent', function (event) {
+        //         const requestBody = event.detail.requestBody;
+
+        //         // Add the user_id from the df-messenger attribute
+        //         const userId = dfMessenger.getAttribute('user-id');
+                
+        //         if (!requestBody.queryParams) {
+        //             requestBody.queryParams = {};
+        //         }
+        //         if (!requestBody.queryParams.payload) {
+        //             requestBody.queryParams.payload = {};
+        //         }
+        //         requestBody.queryParams.payload.user_id = userId;
+
+        //         event.detail.requestBody = requestBody; // Set modified request body back to the event
+        //     });
+        // });
+    </script>
+
+    <style>
+        /* Customize the Dialogflow Messenger chatbot colors */
+        df-messenger {
+            --df-messenger-bot-message: #F2F2F2; /* Bot message background color (Light Gray) */
+            --df-messenger-bot-message-text-color: #333333; /* Bot message text color (Dark Gray) */
+            --df-messenger-user-message: #FD740D; /* User message background color (Orange) */
+            --df-messenger-user-message-text-color: #FFFFFF; /* User message text color (White) */
+            --df-messenger-font-color: #333333; /* Default font color (Dark Gray) */
+            --df-messenger-button-titlebar-color: #FD740D; /* Title bar background color (Orange) */
+            --df-messenger-send-icon: #FD7F0D; /* Send icon color (Orange) */
+            --df-messenger-input-box-color: #FFFFFF; /* Input box background color (White) */
+            --df-messenger-input-font-color: #333333; /* Input box font color (Dark Gray) */
+            --df-messenger-input-placeholder-color: #888888; /* Input box placeholder color (Gray) */
+            --df-messenger-chat-background-color: #FFFFFF; /* Chat background color (White) */
+            --df-messenger-chat-icon: https://cdn-icons-png.flaticon.com/512/6014/6014401.png;
+        }
+
+        /* Customize the first bot message */
+        df-messenger .df-messenger-wrapper .df-messenger-chat .df-message-list .df-message--bot:first-child .message {
+            background-color: #FD740D !important; /* Background color for initial message */
+            color: #FFFFFF !important; /* Text color for initial message */
+        }
+
+        /* Custom CSS for chip size and alignment */
+        df-messenger .df-chip {
+            height: 100px; /* Adjust the height as needed */
+            min-width: 150px; /* Adjust the width as needed */
+            display: flex;
+            flex-direction: column; /* Stack icon above text */
+            align-items: center;
+            justify-content: center;
+            background-color: #E6E6FA; /* Pastel lavender */
+        }
+
+        /* Change the icon of Dialogflow Messenger
+        df-messenger .df-messenger-wrapper .df-messenger-button {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/6014/6014401.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 50%;
+            width: 56px;  /* Adjust width if needed */
+          /*  height: 56px; /* Adjust height if needed */
+           /* background-color: transparent; /* Remove any background color */
+      /*  } */
+
+        /* Custom CSS for chip font size */
+        df-messenger .df-chip .chip-title {
+            font-size: 16px; /* Adjust the font size as needed */
+        }
+
+        /* Custom CSS for chat title bar */
+        df-messenger .df-messenger-titlebar {
+            font-size: 24px;
+        }
+
+        /* Custom CSS for accordion */
+        df-messenger .df-accordion {
+            border: 5px solid #FD740D; /* Border color */
+            border-radius: 8px; /* Border radius */
+            overflow: hidden; /* Hide overflow */
+            background-color: #E6E6FA; /* Pastel lavender background color */
+            color: #333333; /* Text color */
+            font-size: 16px; /* Font size */
+        }
+
+        df-messenger .df-accordion .df-accordion-title {
+            background-color: #FD740D; /* Title background color (Orange) */
+            color: #FFFFFF; /* Title text color (White) */
+            padding: 10px; /* Padding */
+            cursor: pointer; /* Pointer cursor */
+        }
+
+        df-messenger .df-accordion .df-accordion-content {
+            padding: 10px; /* Padding */
+            display: none; /* Hide content by default */
+        }
+
+        df-messenger .df-accordion .df-accordion-content.open {
+            display: block; /* Show content when open */
+        }
+    </style>
+</head>
+<body>
+    <!-- Embed Dialogflow Messenger chatbot -->
+    <df-messenger
+        intent="WELCOME"
+        chat-title="Rodic Hub Assistant"
+        agent-id="b37b2583-0066-4391-91c6-9e5af5ec4746"
+        language-code="en"
+        user-id="Rizwi"
+    ></df-messenger>
+
+    <!-- Container for options/chips -->
+    <div id="chipsContainer"></div>
+
+    <!-- Container for additional text -->
+    <div id="additionalTextContainer"></div>
+
+</body>
+</html>
