@@ -1,0 +1,139 @@
+{
+  "id": "76f4c158-c744-4d7d-abf9-bd03068f2246",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "department - Compliance Cell",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In compliance  cell, you have following options."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "1. \u0027Consultants Empanelment\u0027 – Invite consultants from other companies."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Documentation for the same",
+                      "link": "https://techapi.rodichub.com/fdownload/viewfile/IyMjIy9Vc2VyTWFudWFsL0VtcGFuZWxtZW50IG9mIENvbnN1bHRhbnRzLnBkZg\u003d\u003d"
+                    },
+                    {
+                      "link": "https://rodichub.com/consultantsinvite",
+                      "text": "Invite consultants"
+                    },
+                    {
+                      "link": "https://rodichub.com/empanelmentofconsultantslist",
+                      "text": "Consultants list"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "2. \u0027Project Case Study\u0027 – View case studies of various projects"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Documentation for the same",
+                      "link": "https://techapi.rodichub.com/fdownload/viewfile/IyMjIy9Vc2VyTWFudWFsL1Byb2plY3RDYXNlU3R1ZHkucGRm"
+                    },
+                    {
+                      "link": "https://rodichub.com/addprojectcaseissue",
+                      "text": "New case study"
+                    },
+                    {
+                      "text": "Case list",
+                      "link": "https://rodichub.com/projectcaseissuelist"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to see the options again ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Type in a \u0027Yes\u0027 or \u0027No\u0027."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

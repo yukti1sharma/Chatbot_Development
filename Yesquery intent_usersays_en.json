@@ -1,0 +1,119 @@
+[
+  {
+    "id": "c286da20-fa66-44a9-92d4-4626b999ddfd",
+    "data": [
+      {
+        "text": "I have a query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5da8b83-7a16-4590-b710-c0ebe8f68e98",
+    "data": [
+      {
+        "text": "Yeah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e01706ec-b1ee-46c2-b346-f6e48860a5bb",
+    "data": [
+      {
+        "text": "Yup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4c144dff-58c5-4982-8795-ede3c33eaabb",
+    "data": [
+      {
+        "text": "Yay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38623b28-f2d2-4eb3-85d0-9ec12dd2c89a",
+    "data": [
+      {
+        "text": "Y",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6394dad7-305c-42de-85e2-3c901311c237",
+    "data": [
+      {
+        "text": "any other query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f0acc57b-8f4e-4c69-808a-597658b0caec",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e618366f-db6c-47a2-89c2-6fbb10d06a8f",
+    "data": [
+      {
+        "text": "query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9eea99ec-55a1-4063-881d-f651cd3e587f",
+    "data": [
+      {
+        "text": "do you have any other query",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

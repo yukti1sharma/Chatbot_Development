@@ -1,0 +1,93 @@
+[
+  {
+    "id": "d3696cf9-b159-49de-8b3c-06559bdc2c88",
+    "data": [
+      {
+        "text": "admin ubm travel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "799f7632-dabe-4915-89dd-6c9ed2effe1b",
+    "data": [
+      {
+        "text": "d365",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fe752bfc-625c-4c1f-97d7-8901ea364312",
+    "data": [
+      {
+        "text": "ppms portal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a5c94ab-e40a-48a6-a676-5317de191618",
+    "data": [
+      {
+        "text": "zinghr",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89af57df-1cae-4c27-9111-ecd498039661",
+    "data": [
+      {
+        "text": "dashboards department wise",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "179682bb-b3c0-49af-af66-e5628607e338",
+    "data": [
+      {
+        "text": "dashboards",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb2e7081-e89e-413a-b094-a0ab5449560b",
+    "data": [
+      {
+        "text": "department wise dashboard",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

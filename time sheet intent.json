@@ -1,0 +1,101 @@
+{
+  "id": "6c73a625-fecb-44c4-b8c4-7da204fdeecb",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "time sheet intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"In the \u0027Time Sheet\u0027 section, you can add new time sheets, view monthly summaries, and manage projects requests and approvals.  How can I assist you today?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Add time sheet",
+                      "link": "https://rodichub.com/addtimesheet"
+                    },
+                    {
+                      "link": "https://rodichub.com/timesheetlist",
+                      "text": "Timesheet monthly view"
+                    },
+                    {
+                      "text": "Pending approval",
+                      "link": "https://rodichub.com/pendingtsapprpoval"
+                    },
+                    {
+                      "link": "https://rodichub.com/projectassignrequest",
+                      "text": "Project assign request"
+                    },
+                    {
+                      "link": "https://rodichub.com/projectassignrequestlist",
+                      "text": "Project assigned request list"
+                    },
+                    {
+                      "text": "Project assign approval list",
+                      "link": "https://rodichub.com/projectrequestapproval"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to see the options again ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Type a \u0027Yes\u0027 or \u0027No\u0027."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "11e91feb-3ddd-4b03-8e5f-9d95355d8f51",
+    "data": [
+      {
+        "text": "where to book a guest house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "efe37af5-95b2-496d-85c3-1dd530aad5e4",
+    "data": [
+      {
+        "text": "want to book a guest house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63d486ed-8ed8-4f02-ac24-b707c0577501",
+    "data": [
+      {
+        "text": "pending approval",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8305ff9-03e5-491a-86f1-f55d19675b3b",
+    "data": [
+      {
+        "text": "booking list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d53f196-4a94-4709-983c-a07c967a384b",
+    "data": [
+      {
+        "text": "guest house booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7c228b4-2063-4868-a9a3-9ed17da053ec",
+    "data": [
+      {
+        "text": "guest house",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

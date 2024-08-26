@@ -1,0 +1,80 @@
+[
+  {
+    "id": "92b41b88-9739-4c30-a0d6-ca64da3cc74b",
+    "data": [
+      {
+        "text": "manage issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "837d669c-a188-4030-9779-07db5cd909c8",
+    "data": [
+      {
+        "text": "my issue has not been resolved",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66f89810-dfb7-4123-9e2c-228d575694d0",
+    "data": [
+      {
+        "text": "status of my issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8fd488d9-0fa8-4877-ab6d-e8ba63b32720",
+    "data": [
+      {
+        "text": "admin help desk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1c9d05c-f252-4f3f-8c07-8bd7f41917bb",
+    "data": [
+      {
+        "text": "i have a problem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e462506-fb15-4606-88df-bfde9a1628b2",
+    "data": [
+      {
+        "text": "how to raise an issue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

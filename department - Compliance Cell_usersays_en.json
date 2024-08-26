@@ -1,0 +1,119 @@
+[
+  {
+    "id": "9d8616a2-6b37-471b-b3c2-d1c020cf113b",
+    "data": [
+      {
+        "text": "consultants list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63834884-a72e-4ad9-a879-cc2c581623f2",
+    "data": [
+      {
+        "text": "invite consultants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8f29909-3575-4cd5-9de0-5738dc69582b",
+    "data": [
+      {
+        "text": "case list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d0c000d3-696a-4ceb-ab12-402f4df8492c",
+    "data": [
+      {
+        "text": "new case study",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0cce85c3-f711-4c0e-a792-14ec63f474c5",
+    "data": [
+      {
+        "text": "consultants empanelment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f6c95fb-9ad8-4a5b-8acb-35dc851ec232",
+    "data": [
+      {
+        "text": "project case study",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6cec1857-1d4d-4f96-bddd-026289e42ccf",
+    "data": [
+      {
+        "text": "I am in compliance cell department",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e83d1c3-0cd2-4a11-a8e6-2263f11dd88b",
+    "data": [
+      {
+        "text": "I am interested in complicance cell.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d82e35b0-b799-451b-8fd1-39f3fbe88438",
+    "data": [
+      {
+        "text": "Compliance cell",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "id": "27fd4f63-d6e6-4bea-816f-267c71d1ea70",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "travel allowance intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "travelallowanceintent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"In the \u0027Travel Allowance\u0027 section, you can manage your travel expenses efficiently.",
+            "In the \u0027Travel Allowance\u0027 section, you can view your travel expense list, add travel expense and manage the approval list."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://rodichub.com/talist",
+                      "text": "View travel expense list"
+                    },
+                    {
+                      "link": "https://rodichub.com/addta",
+                      "text": "Add travel expense"
+                    },
+                    {
+                      "link": "https://rodichub.com/addta",
+                      "text": "Manage approval"
+                    },
+                    {
+                      "text": "Finance approval",
+                      "link": "https://rodichub.com/tafinanceapproval"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to see the options again ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Type in a \u0027Yes\u0027 or \u0027No\u0027."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,89 @@
+{
+  "id": "0fef4d47-6b1b-45b9-90e4-9ead2924236d",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "dns intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In \u0027DNS(Document Number System)\u0027, you can view documents of various systems specific to projects, head office and SOP\u0027s and circulars."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Project specific DNS list",
+                      "link": "https://rodichub.com/dnslist"
+                    },
+                    {
+                      "text": "Head office DNS list",
+                      "link": "https://rodichub.com/dnslistHO"
+                    },
+                    {
+                      "link": "https://rodichub.com/dnslistSOP",
+                      "text": "SOPs and Circulars"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to see the options again ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Type in a \u0027Yes\u0027 or \u0027No\u0027."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

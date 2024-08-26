@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cb77da7c-52ba-49cc-9c76-f841bef40533",
+    "data": [
+      {
+        "text": "see my meetings list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "81e7e0b7-c7de-4e4f-ab20-6d615be024ab",
+    "data": [
+      {
+        "text": "see my upcoming/pending meetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2179ab6-7ab3-4b08-a534-253af73c390a",
+    "data": [
+      {
+        "text": "schedule a meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "657df186-7fa1-4dc4-aeca-e1da338b0415",
+    "data": [
+      {
+        "text": "manage meetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ca2e86e-847d-4196-97d1-735ce79848c1",
+    "data": [
+      {
+        "text": "minutes of meeting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

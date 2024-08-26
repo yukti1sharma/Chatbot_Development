@@ -1,0 +1,93 @@
+[
+  {
+    "id": "00f7491c-92ed-4c86-a581-84fe9807720a",
+    "data": [
+      {
+        "text": "events list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8b75964-a407-406b-ab4d-35886a35caa7",
+    "data": [
+      {
+        "text": "manage events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52160a77-8af7-4374-be1a-0ac0804ce5fa",
+    "data": [
+      {
+        "text": "see events",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "723a9115-db7c-4c45-9b07-5a2ba5173b4e",
+    "data": [
+      {
+        "text": "rodic eye report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1068429-058f-4462-8d14-c0667139934d",
+    "data": [
+      {
+        "text": "event report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e5b462d-137d-49d3-96a9-9c1f7350bed3",
+    "data": [
+      {
+        "text": "events history",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ff218b8-dace-4903-b441-106616188a47",
+    "data": [
+      {
+        "text": "Rodic eye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

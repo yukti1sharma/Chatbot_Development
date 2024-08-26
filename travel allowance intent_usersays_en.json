@@ -1,0 +1,80 @@
+[
+  {
+    "id": "5649a5c3-49c0-4565-909b-6fe2aab36540",
+    "data": [
+      {
+        "text": "travel allowance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0bb9dde0-4c09-4e8b-b9ce-58667c7e00c5",
+    "data": [
+      {
+        "text": "travel allowance list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d84aa8c3-8bf7-4627-b66e-589a1ea6bb4c",
+    "data": [
+      {
+        "text": "financial approval",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3b3e79a-1a27-477f-b132-44523907cf1a",
+    "data": [
+      {
+        "text": "is the pending allowance approved",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8a9672c6-9df0-41cc-88b1-151c0b30e148",
+    "data": [
+      {
+        "text": "where to see the travel expense list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30d81284-bb2c-4edd-87f9-92f74e7ed02f",
+    "data": [
+      {
+        "text": "what does travel allowance do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

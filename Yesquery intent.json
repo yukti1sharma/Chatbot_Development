@@ -1,0 +1,198 @@
+{
+  "id": "4421f04b-7b76-491a-9fbd-334c3bc779b4",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "Yesquery intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Here are a few things I can help you with , please select a button:"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Manage tasks",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSwWAcjhuhSHkvIMue0Te6dt9WoX980vWre1w\u0026s"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Guest House",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://www.clipartmax.com/png/middle/471-4714415_noun-395458-cc-noun-315697-noun-929844-noun-194647-guest-house-icon.png"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://p1.hiclipart.com/preview/249/542/544/meeting-people-agenda-convention-minutes-annual-general-meeting-management-icon-design-conversation-png-clipart.jpg"
+                        }
+                      },
+                      "text": "Manage Meetings"
+                    },
+                    {
+                      "text": "Time Sheet",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://static.thenounproject.com/png/4904026-200.png"
+                        }
+                      }
+                    },
+                    {
+                      "text": "Travel Allowance",
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcRe1QwupyX1ZEr3FKdtg_y5crR6fEZ3xe7MVA\u0026s"
+                        }
+                      }
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcSvp_7wmMJzFr_atRtvsRTHiTweuMarz4S3aw\u0026s"
+                        }
+                      },
+                      "text": "Idea Centre"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://e7.pngegg.com/pngimages/255/41/png-clipart-computer-icons-scalable-graphics-gallery-icon-angle-text.png"
+                        }
+                      },
+                      "text": "Gallery"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://static.vecteezy.com/system/resources/previews/006/692/012/non_2x/calendar-date-date-notes-business-office-event-icon-template-black-color-editable-calendar-date-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg"
+                        }
+                      },
+                      "text": "Events"
+                    },
+                    {
+                      "image": {
+                        "src": {
+                          "rawUrl": "https://icons.veryicon.com/png/o/miscellaneous/left-menu/equipment-list-2.png"
+                        }
+                      },
+                      "text": "Manage Issues"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "To pick a specific department, choose from the choices below :"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Contracts and Legal"
+                    },
+                    {
+                      "text": "Finance"
+                    },
+                    {
+                      "text": "HR"
+                    },
+                    {
+                      "text": "Compliance Cell"
+                    },
+                    {
+                      "text": "Design review"
+                    },
+                    {
+                      "text": "Admin"
+                    },
+                    {
+                      "text": "Department Wise Dashboards"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For any more queries , contact the abc@gmail.com."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you! Have a great day!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

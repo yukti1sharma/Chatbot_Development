@@ -1,0 +1,67 @@
+[
+  {
+    "id": "218296a2-3fe8-4a1d-beb8-4cfdd8e78725",
+    "data": [
+      {
+        "text": "checklist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a2572b5-84f2-4cea-b24e-bcb9c2686308",
+    "data": [
+      {
+        "text": "detailed progress report",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f8400e3-4a4d-4f06-95c3-b58d84674eb8",
+    "data": [
+      {
+        "text": "review design",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "35082911-3d85-495e-bf5c-0ddbe08fd70e",
+    "data": [
+      {
+        "text": "design review",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5965584-b1c6-4ca0-b746-c943034efd2a",
+    "data": [
+      {
+        "text": "DPR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

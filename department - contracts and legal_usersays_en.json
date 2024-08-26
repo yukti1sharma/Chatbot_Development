@@ -1,0 +1,67 @@
+[
+  {
+    "id": "105c6f12-ec89-4085-9d78-e4ff2c5197c0",
+    "data": [
+      {
+        "text": "CALM",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aecb9d53-9af8-4cad-934a-21ff34d896c6",
+    "data": [
+      {
+        "text": "contractual issues",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c28d4426-29a8-4b86-a440-4b712893f421",
+    "data": [
+      {
+        "text": "I am in contracts and legal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6ae1c24-af49-4761-aa83-3f16bcb1a651",
+    "data": [
+      {
+        "text": "I am interested in contracts and legal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f39d7555-54d7-402f-ab06-90f97d83b54d",
+    "data": [
+      {
+        "text": "contracts and legal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

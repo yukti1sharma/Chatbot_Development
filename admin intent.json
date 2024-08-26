@@ -1,0 +1,100 @@
+{
+  "id": "b2c36114-838d-4f3c-b548-00847773fabd",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "admin intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the \u0027Admin\u0027 department, you have the \u0027enterprise search\u0027 option.  In this section you have the process of searching for keywords within documents,\nnavigating search results, and accessing specific letters or documents."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Documentation for the steps",
+                      "link": "https://techapi.rodichub.com/fdownload/viewfile/IyMjIy9Vc2VyTWFudWFsL05hdmlnYXRpbmcgYW5kIHNlYXJjaGluZyB1c2luZyBFbnRlcnByaXNlIFNlYXJjaCBNb2R1bGUgaW4gUm9kaWNIdWJfUERGXzIwMjQtMDQtMTUxMDU3MjIucGRm"
+                    },
+                    {
+                      "text": "Enterprise Search",
+                      "link": "https://rodichub.com/enterprisesearch"
+                    },
+                    {
+                      "text": "Manual Search",
+                      "link": "https://rodichub.com/menterprisesearch"
+                    },
+                    {
+                      "link": "https://rodichub.com/mfileupload",
+                      "text": "Manual File Upload"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to see the options again ?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Type in a \u0027Yes\u0027 or \u0027No\u0027"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

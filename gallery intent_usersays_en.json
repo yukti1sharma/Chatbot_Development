@@ -1,0 +1,119 @@
+[
+  {
+    "id": "d70537c7-a05e-4c1c-b512-051200b26072",
+    "data": [
+      {
+        "text": "pics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "360b40a8-76ee-4706-8314-69939633eae5",
+    "data": [
+      {
+        "text": "images",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b8706ff-6a5c-42e7-97ad-d62e7db5156c",
+    "data": [
+      {
+        "text": "photos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2191d5f0-a600-4b82-b567-238232e8c4c8",
+    "data": [
+      {
+        "text": "gallery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "524f33a5-5a17-4675-9627-dae7d263a668",
+    "data": [
+      {
+        "text": "where to see the pictures",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfda72db-974e-45ec-b99f-8f5a88a1e8bc",
+    "data": [
+      {
+        "text": "want to see events list",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "788f39f2-b04b-45c6-bd68-5c318d787752",
+    "data": [
+      {
+        "text": "add an event",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e618b0a-9f9e-42b5-9c9e-beb262176f82",
+    "data": [
+      {
+        "text": "see photos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aa63ca6b-acb8-4948-9a44-f0655cb6ec85",
+    "data": [
+      {
+        "text": "view gallery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

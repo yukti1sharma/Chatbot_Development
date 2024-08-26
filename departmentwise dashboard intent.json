@@ -1,0 +1,121 @@
+{
+  "id": "c5df614c-4d8e-47bc-8928-d430c24953f7",
+  "parentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "rootParentId": "c45fce4a-220e-45a0-b481-e7ea941b56d3",
+  "name": "departmentwise dashboard intent",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You selected \u0027Department wise dashboards\u0027 section."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "On the Rodic Hub homepage, you can access and view all the available dashboards."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which dashboard would you like to access? Select an option below to proceed."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://portal.zinghr.com/2015/pages/authentication/login.aspx",
+                      "text": "HR - ZING PORTAL"
+                    },
+                    {
+                      "text": "PPMS Portal",
+                      "link": "https://ppms.rodichub.com/"
+                    },
+                    {
+                      "text": "D365 F\u0026O Portal",
+                      "link": "https://rodicprod.operations.dynamics.com/?cmp\u003drcpl\u0026mi\u003dDefaultDashboard"
+                    },
+                    {
+                      "text": "D365 BD Portal",
+                      "link": "#"
+                    },
+                    {
+                      "text": "D365 Operations Portal",
+                      "link": "https://rodicprod.operations.dynamics.com/?cmp\u003drcpl\u0026mi\u003dDefaultDashboard"
+                    },
+                    {
+                      "text": "Admin UBM Travel",
+                      "link": "https://www.ubmtravel.com/"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to say the options again?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Type in a \u0027Yes\u0027 or a \u0027No\u0027."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
